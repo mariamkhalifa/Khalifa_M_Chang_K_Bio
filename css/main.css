@@ -10,12 +10,12 @@ h1 {
 	font-family: 'Poller One', cursive;
 	font-size: 60px;
 	display: inline;
-	margin-top: 50px;
-	margin-left: 50px;
 }
 
 h2 {
-
+	font-family: 'Poller One', cursive;
+	font-size: 30px;
+	display: inline;
 }
 
 h3 {
@@ -24,20 +24,40 @@ h3 {
 	display: inline;
 }
 
-#strip {
-	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+.hidden {
+	display: none;
+}
+
+#welcome {
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
 }
 
 #bio {
+	background: url(../images/strip.png) no-repeat;
+	height: 562px;
 	display: flex;
 	justify-content: space-evenly;
 }
 
-#bio h3 {
-	padding: 20px 40px;
+#photo-name {
+	display: flex;
+	flex-direction: column;
+}
+
+#photo-small {
+	background-color: #ccc;
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 120px;
+	left: 80px;
+}
+
+#photo-large {
+	background: url(../images/mariam.jpg) no-repeat;
+	width: 100%;
 }
 
 .column {
