@@ -1,3 +1,58 @@
 @charset "utf-8";
 /* CSS Document */
 
+body {
+	background-color: #666;
+	color: white;
+}
+
+h1 {
+	font-family: 'Poller One', cursive;
+	font-size: 60px;
+	display: inline;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+h2 {
+
+}
+
+h3 {
+	font-family: 'Poller One', cursive;
+	font-size: 30px;
+	display: inline;
+}
+
+#strip {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#bio {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+#bio h3 {
+	padding: 20px 40px;
+}
+
+.column {
+	padding-top: 20px;
+	margin-right: 40px;
+}
+
+.column:last-child {
+	padding-right: 30px;
+}
+
+#footer {
+	background-color: black;
+	text-align: center;
+	padding: 20px;
+	font-size: 10px;
+	margin-top: 40px;
+}
